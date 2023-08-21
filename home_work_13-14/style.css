@@ -1,0 +1,231 @@
+body {
+    border: 4px solid red;
+    border-bottom: none;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+    margin: 0;
+}
+
+/*--header---------------------------------------------------------------*/
+
+header {
+    background-color: violet;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+}
+
+header p {
+    padding-bottom: 10px;
+}
+
+.header_white {
+    background-color: white;
+    width: 70%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.header_black {
+    background-color: black;
+    width: 70%;
+    height: 120px;
+}
+
+/*--menu-----------------------------------------------------------------*/
+
+.menu {
+    background-color: gray;
+    padding-bottom: 20px;
+}
+
+.menu_blocks {
+    display: flex;
+}
+
+.menu_blocks > div {
+    width: 25%;
+    height: 220px;
+}
+
+.menu_blocks_red {
+    background-color: red;
+}
+.menu_blocks_orange {
+    background-color: orange;
+}
+.menu_blocks_sky {
+    background-color: aquamarine
+}
+.menu_blocks_yellow {
+    background-color: yellow;
+}
+
+/*--main----------------------------------------------------------------------*/
+
+.main {
+    display: flex;
+}
+
+.left, .center, .right {
+    height: 560px;
+    width: 33.33%;
+}
+
+
+/*--main_left-----------------------------------------------------------------*/
+
+.left {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left_blocks {
+    display: flex;
+    justify-content: center;
+}
+
+.left_blocks_orange {
+    background-color: orange;
+    width: 70%;
+    height: 460px;
+    display: flex;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+.left_blocks_orange p {
+    width: 100%;
+    align-self: start;
+}
+
+.left_blocks_orange_pink {
+    background-color: pink;
+    width: 50%;
+    height: 400px;
+}
+
+.left_blocks_orange_yellow {
+    background-color: yellow;
+    width: 50%;
+    height: 400px;
+}
+
+/*--main_centr-----------------------------------------------------------------*/
+
+.center {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.center_blocks {
+    display: flex;
+}
+
+.center_blocks_red {
+    background-color: red;
+    height: 460px;
+    width: 33.33%;
+}
+
+.center_blocks_orange {
+    background-color: orange;
+    height: 460px;
+    width: 33.33%;
+}
+
+.center_blocks_yellow {
+    background-color: yellow;
+    height: 460px;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.center_blocks_yellow_elements {
+    display: flex;
+    align-items: flex-end;
+}
+
+    .center_blocks_yellow_ac {
+        background-color: orange;
+        height: 400px;
+        width: 50%;
+    }
+
+    .center_blocks_yellow_bc {
+        background-color: red;
+        height: 160px;
+        width: 50%;
+    }
+
+/*--main_right-----------------------------------------------------------------*/
+
+.right {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right_blocks {
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.right_blocks_sky {
+    background-color: aquamarine;
+    height: 160px;
+    width: 33.33%;
+}
+
+.right_blocks_yellow {
+    height: 300px;
+    width: 33.33%;
+}
+
+    .right_blocks_yellow_main {
+        height: 250px;
+        background-color: yellow;
+    }
+
+.right_blocks_orange {
+    background-color: orange;
+    height: 250px;
+    width: 33.33%;
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+    .right_blocks_orange i {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 10px 30px;
+    width: 30%;
+    text-align: center;
+    }
+
+    #first {
+        align-self: flex-end;
+        margin-top: 30px;
+    }
+
+    #second {
+        margin-bottom: 20px;
+    }

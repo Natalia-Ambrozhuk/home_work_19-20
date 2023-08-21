@@ -1,0 +1,121 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    margin: 0 0 80px 0;
+    border-bottom: 2px solid grey;
+    background: linear-gradient(to bottom right, #add8e64f, #ffc0cb63);
+}
+
+.table_1, .table_2 {
+    font-size: 22px;
+    padding: 20px;
+    margin: 0 20px;
+    border: 2px solid rgb(9, 9, 79);
+    background: linear-gradient(to bottom right, lightblue, pink);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+div a {
+    padding: 10px 40px;
+    text-decoration: none;
+    color: rgb(9, 9, 79);
+    font-family: 'Times New Roman', Times, serif;
+}
+    nav a:hover {
+        background-color: rgb(9, 9, 79);
+        color: white;
+        border-radius: 10px;
+    }
+
+/*------------------------------------------------------------------------------------------------*/
+
+h1 {
+    margin: 0 0 40px 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img[src$=".jpg"] {
+    width: 400px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid gray;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+
+caption {
+    font-size: 24px;
+    padding: 20px;
+}
+
+ td {
+    border: 1px solid gray;
+    padding: 5px 20px;
+}
+
+#ser, #par {
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    background-color: green;
+}
+
+.rid td {
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    background-color: yellow;
+}
+
+td[title] {
+    background-color: lawngreen;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.param {
+    background-color: orange;
+}
+
+td[title="last_param"] {
+    background-color: rgba(255, 165, 0, 0.6);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+/*
+    .param:after {
+        background-color: rgb(200, 144, 62);
+    }
+
+    td ~ .other {
+    }
+
+    X:not(selector) {
+        hover
+    }
+
+    a[href^="index"] {
+        background: url(path/to/external/icon.png) no-repeat;
+        padding-left: 10px;
+   }
+*/

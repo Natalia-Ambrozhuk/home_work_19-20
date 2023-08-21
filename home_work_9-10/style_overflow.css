@@ -1,0 +1,43 @@
+div {
+    margin: 20px;
+    border: 1px solid gray;
+    padding: 5px 10px;
+}
+
+.over1 {
+    overflow: auto;
+    width: 80%;
+    height: 100px;
+}
+
+.over2 {
+    overflow: hidden;
+    width: 90%;
+    height: 132px;
+}
+
+.over3 {
+    overflow: scroll;
+    width: 400px;
+    height: 100px;
+}
+
+.empty {
+    width: 800px;
+    border: none;
+    background-color: bisque;
+}
+
+.over4 {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100px;
+    height: 200px;
+}
+
+.over5 {
+    overflow-x: auto;
+    overflow-y: visible;
+    width: 700px;
+    height: 200px;
+}

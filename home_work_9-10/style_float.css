@@ -1,0 +1,39 @@
+.float1 p {
+    float: right;
+    margin-right: 50px;
+}
+
+.float2 {
+    height: 80px;
+}
+
+.float2 li {
+   float: left; 
+   list-style-type: none;
+   font-size: 20px;
+   padding: 20px;
+}
+
+.float3 {
+    float: left;
+    border: double black;
+    width: 10%;
+    margin-right: 10px;
+}
+
+.float3 li {
+    padding: 10px;
+}
+
+.float4 {
+    float: none;
+}
+
+#kv {
+    background-color: blueviolet;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin: 10px;
+}

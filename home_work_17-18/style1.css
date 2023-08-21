@@ -1,0 +1,61 @@
+body {
+    background-color: lightgreen;
+}
+
+form {
+    width: 30%;
+    margin: 40px;
+    padding: 30px;
+    display: grid;
+    border: 2px solid green;
+    background-color: rgb(199, 238, 205);
+}
+
+.main {
+    font-size: 22px;
+    color: rgb(19, 19, 40);
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+    .main:first-child {
+        margin-top: 0;
+    }
+
+select, [type=text] {
+    margin-left: 20px;
+    width: 200px;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+[type=checkbox] {
+    margin-left: 20px;
+    width: 18px;
+    height: 18px;
+}
+
+label:not(.main) { 
+    font-size: 18px; 
+    vertical-align: top;
+}
+
+[name=submit] {
+    padding: 20px;
+    margin: 60px 20px 10px 20px;
+    border-radius: 10px;
+    border: 2px solid green;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+    [name=submit]:hover {
+        background-color: rgb(1, 65, 1);
+        color: white;
+    }
+
+iframe {
+    width: 90%;
+    height: 700px;
+    margin-left: 50px;
+}

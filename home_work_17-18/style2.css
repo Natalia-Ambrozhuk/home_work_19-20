@@ -1,0 +1,69 @@
+body {
+    background-image: url(./img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    width: 40%;
+    margin: 40px auto;
+    border: 1px solid grey;
+    background-color: white;
+    display: grid;
+    min-width: 400px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    line-height: 28px;
+    margin: 0;
+    padding: 40px;
+    background-color: rgb(3, 3, 103);
+    color: #fff;
+}
+
+input, textarea {
+    margin: 40px 40px 0;
+    padding: 20px;
+    border: 4px double gray;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+    input:hover, textarea:hover {
+        background-color: aliceblue;
+    }
+
+[type=file] {
+    color: grey;
+}
+
+div {
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 0;
+}
+
+button {
+    width: 50%;
+    margin: 50px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+    button:hover {
+        background-color: rgb(3, 3, 103);
+        color: #fff;
+    }
+

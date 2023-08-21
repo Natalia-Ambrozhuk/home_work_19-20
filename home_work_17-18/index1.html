@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home work 17-18</title>
+    <link rel="stylesheet" href="./style1.css">
+</head>
+<body>
+
+   <form action="#" method="get">
+
+        <label for="product" class="main">Тип продукту:</label>
+            <select name="product" id="product">
+                <option value="telefon" >телефон</option>
+                <option value="laptop">ноутбук</option>
+                <option value="vacuum">пилесос</option>
+                <option value="charger">зарядка</option>
+            </select>
+
+            <label class="main">Потужність:</label>
+                <div>
+                    <input type="checkbox" name="power" id="w15"><label for="w15">15w</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="power" id="w25"><label for="w25">25w</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="power" id="w65"><label for="w65">65w</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="power" id="w100"><label for="w100">100w</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="power" id="w200"><label for="w200">200w</label>
+                </div>
+
+            <label class="main">Марка:</label>
+                <div>
+                    <input type="checkbox" name="brand" id="samsung"><label for="samsung">samsung</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="brand" id="lg"><label for="lg">lg</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="brand" id="asus"><label for="asus">asus</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="brand" id="lenovo"><label for="lenovo">lenovo</label>
+                </div>
+
+            <label for="select" class="main">Сортування:</label>
+                <select name="select" id="select">
+                    <option value="cheap">від дешевих</option>
+                    <option value="expensive">від дорогих</option>
+                    <option value="grade" selected>по рейтингу</option>
+                </select>
+
+            <label for="model" class="main">Назва моделі:</label>
+            <input type="text" name="model" placeholder="Модель" id="model">
+     
+            <input type="submit" name="submit" value="Застосувати">
+   
+        </form>
+
+        <iframe src="./index2.html"></iframe>
+    
+</body>
+</html>

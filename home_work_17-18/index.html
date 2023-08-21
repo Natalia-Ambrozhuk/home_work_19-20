@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home work 17-18</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <a href="./index1.html" target="_blank">Choose a product</a>
+
+    <form action="#" method="get" class="data">
+        <h1>Send form</h1>
+        <div class="data_name">
+            <label for="name">Your name:</label> 
+            <input type="text" name="name" placeholder="Name" id="name" required>
+        </div>
+        <div class="data_password">
+            <label for="password">Your password:</label>
+            <input type="password" name="password" placeholder="Password" id="password" required>
+        </div>
+        <div class="data_password_again">
+            <label for="password_again">Password again:</label>
+            <input type="password" name="password_again" placeholder="Password again" id="password_again" required>
+        </div>
+        <div class="data_age">
+            <label for="age">Your age:</label>
+            <input type="number" name="Age" placeholder="Age" id="age" required>
+        </div>
+        <div class="data_data_birth">
+            <label for="date_birth">Date of Birth:</label>
+            <input type="date" name="date_birth" id="date_birth" required>
+        </div>
+        <div class="data_age_group">
+            <label for="age_group">Age group:</label>
+            <select name="age_group" id="age_group">
+                <option value="before18">>18</option>
+                <option value="18-25">18-25</option>
+                <option value="26-45">26-45</option>
+                <option value="46-65">46-65</option>
+                <option value="after65">&lt;65</option>
+            </select>
+        </div>
+        <div class="data_sex">
+            <label>Sex:</label>
+            <input type="radio" name="sex" id="woman"><label for="woman" class="radio">Woman</label>
+            <input type="radio" name="sex" id="man"><label for="man" class="radio">Man</label>  
+            <input type="radio" name="sex" id="another"><label for="another" class="radio">Another</label>  
+        </div>
+        <div class="data_message">
+            <label for="message" class="textarea">Your message:</label>
+            <textarea name="message" placeholder="Message" id="message"></textarea>
+        </div>
+        <input type="submit" name="submit" value="Send" id="button">
+    </form>
+    
+</body>
+</html>
